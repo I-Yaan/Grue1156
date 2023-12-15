@@ -12,4 +12,4 @@ Programme python permettant de réealiser des simulation d'une grue effectuant d
 
 
 
-Contributeur au programme César, Cyril, Lisa, Thélma, Théo, Yanis
+Contributeurs au programme César, Cyril, Lisa, Thélma, Théo, Yanis
