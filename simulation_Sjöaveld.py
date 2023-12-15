@@ -56,8 +56,8 @@ class Grue :
     
     def oscillation_lacher(self,d,h,m_charge,end,step) :
         """
-        simulation : simulation de l'angle d'inclinaison en fonction du temps lors du 
-            lacher d'une charge 
+        simulation : montre l'angle,la vitesse angualaire, l'acceleration angulaire et les énergies en fonction du temps 
+                     ainsi que le diagramme de phase lorsqu'une masse est lachée à une certaine distance et haute 
 
         pre:    d : la distance entre la grue et la charge lachée [m]
                 h : la hauteur entre l'eau et la charge lachée [m]
