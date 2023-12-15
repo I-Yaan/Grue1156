@@ -18,8 +18,8 @@ from simulation_Sjöaveld import *
 
     simulation possible :
     
-        oscillation_mouvement() : montre l'angle d'inclinaison de la plateforme en fonction du temps avec une 
-                                  masse qui se deplace jusqu'à une distance d_max en un temps t_dplacement
+        oscillation_mouvement() : montre l'angle,la vitesse angualaire, l'acceleration angulaire et les énergies en fonction du temps 
+                                  ainsi que le diagramme de phase lorsqu'une masse qui se deplace jusqu'à une distance d_max en un temps t_dplacement
 
                 ma_grue.oscillation_mouvement(h= ,t_deplacement= ,d_max= ,m_charge= ,step= ,end= )
 
@@ -30,8 +30,8 @@ from simulation_Sjöaveld import *
                 step : temps d'une étape de la simulation (plus petit = plus précis) [s]
                 end : temps de la fin de la simulation [s]
                 
-        oscillation_lacher() : montre l'angle,la vitesse angualaire et l'acceleration angulaire 
-                               lorsque une masse est lachée à une certaine distance et hauteur
+        oscillation_lacher() : montre l'angle,la vitesse angualaire, l'acceleration angulaire et les énergies en fonction du temps 
+                               ainsi que le diagramme de phase lorsqu'une masse est lachée à une certaine distance et hauteur
 
                 ma_grue.oscillation_lacher(d = ,h = ,m_charges= ,end = ,step =)
 
