@@ -7,7 +7,7 @@ Programme python permettant de réealiser des simulation d'une grue effectuant d
     * Osciliation de la grue lors du lachée d'une masse
     * Angle stable de la grue pour une masse à une certaine distance 
    
-* Bibliothèque python nécessaire
+* Bibliothèque python utilisée
   * Numpy
   * Matplotlib 
 
