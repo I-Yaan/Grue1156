@@ -11,7 +11,7 @@ Programme python permettant de réealiser des simulation d'une grue effectuant d
   * Numpy
   * Matplotlib 
 
-
+----------------------------------------------------------------------
 Simulation 3d avec Unity
  * Utilisation de modèle 3d de la grue crée sur Fusion360
  * Utilisation d'algorithme de Cinématique inverse (Inverse kinematics)
