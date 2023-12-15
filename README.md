@@ -20,4 +20,4 @@ Simulation 3d avec Unity
 ![gifGrue](https://github.com/I-Yaan/Grue1156/assets/88375084/1339f148-139c-4297-81a7-14c6b47588ec)
 
    
-Contributeurs au programme César, Cyril, Lisa, Thélma, Théo, Yanis
+Contributeurs au programme César, Cyril, Lisa, Thélma, Théo, Yanis (groupe 11.56)
