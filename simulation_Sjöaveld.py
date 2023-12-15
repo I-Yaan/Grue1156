@@ -64,8 +64,7 @@ class Grue :
                 m_charges:masse de la charge lachée [kg]
                 end : la durée du temps simulé [s]
                 step : la durée d'une étape de la simulation (plus petit = plus précis) [s]
-        post: exécute une simulation jusqu'à t=end par pas de dt=step.
-            Remplit les listes x, v, a des positions, vitesses et accélérations.
+        post:   affiche les graphiques de la simulation
         """
 
         # conditions initiales
@@ -189,8 +188,8 @@ class Grue :
     
     def oscillation_mouvement(self,t_deplacement,h,d_max,m_charge,end,step) :
         """ 
-            simulation : simulation de l'angle d'inclinaison en fonction du temps lors du 
-            déplacement d'une charge sur une distance d + l'oscillation après la fin du déplacement
+            simulation : montre l'angle,la vitesse angualaire, l'acceleration angulaire et les énergies en fonction du temps 
+                         ainsi que le diagramme de phase lorsqu'une masse qui se deplace jusqu'à une distance d_max en un temps t_dplacement
 
             pre:    h : hauteur à laquelle se passe le déplacement
                     t_deplacement : temps du deplacement [s]
@@ -199,7 +198,7 @@ class Grue :
                     step : temps d'une intervale (plus petit = plus précis) [s]
                     end : temps de fin de simu [s]
             
-            post:   affiche un graphique de l'angle en fonction du temps   
+            post:   affiche les graphiques de la simulation  
         """
 
         # conditions initiales
@@ -365,7 +364,7 @@ class Grue :
                 masses : une liste de masse des différentes charges [kg]
                 step : distance entre chaque etape de la simulation (plus petit = plus précis) [s]
             
-            post:   affiche un graphique graphique de l'angle d'inclianaison en fontion de d pour une masse transportée donnée
+            post:   affiche un graphique de l'angle d'inclianaison en fontion de d pour une masse transportée donnée
         """
         
         plt.figure("Angle en fonction du déplacement de masses")
