@@ -12,6 +12,12 @@ Programme python permettant de réealiser des simulation d'une grue effectuant d
   * Matplotlib 
 
 
+Simulation 3d avec Unity
+ * Utilisation de modèle 3d de la grue crée sur Fusion360
+ * Utilisation d'algorithme de Cinématique inverse (Inverse kinematics)
 
 
+![gifGrue](https://github.com/I-Yaan/Grue1156/assets/88375084/1339f148-139c-4297-81a7-14c6b47588ec)
+
+   
 Contributeurs au programme César, Cyril, Lisa, Thélma, Théo, Yanis
