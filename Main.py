@@ -1,4 +1,4 @@
-from simulation_Sjöaveld import *
+from grue import Grue
 
 """
     fichier principal pour créer des grues et les simulations qui vont avec
